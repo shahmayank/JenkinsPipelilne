@@ -9,7 +9,6 @@ pipeline {
 
     stage('Test') {
       steps {
-        timeout(time: 180, activity: true)
         echo 'Hello Test'
       }
     }
